@@ -1,0 +1,23 @@
+{
+  "name": "fundamentosNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mono": "nodemon conceptos/monohilo.js",
+    "ent": "nodemon conceptos/entorno.js",
+    "rep": "nodemon conceptos/repasoVariblesEntorno.js",
+    "as": "nodemon async/callbacks.js",
+    "repa": "nodemon async/repasoCallbacks.js",
+    "hell": "nodemon async/callbacksHell.js",
+    "repasoH": "nodemon async/repaosHell.js",
+    "repaso": "nodemon async/repasoHell2.js",
+    "pro": "nodemon async/promises.js"
+  },
+  "keywords": [],
+  "author": "Jhonny Callisaya <jhonnyeddy.22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
