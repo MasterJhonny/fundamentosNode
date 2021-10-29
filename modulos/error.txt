@@ -1,0 +1,3 @@
+Error no capturado:
+ReferenceError: functionNull is not defined
+El origen es: uncaughtException

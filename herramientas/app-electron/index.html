@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belen Master</title>
+</head>
+<body>
+    <div class="lado">
+        <h1>Wed de Belen Master</h1>
+        <p>soy feliz y me llamo <span id="salida">Belen Master</span></p>
+        <img src="./img/channels4_profile.jpg" alt="foto de perfil" id="img">
+        <p class="otroP">hola Mundo</p>
+    </div>
+    <div class="lado1">
+        <input type="text" id="name" placeholder="ingresa tu nombre">
+        <button id="btn">Aceptar</button>
+    </div>
+
+
+    <!-- // lenguaje de programacion.(interaccion). -->
+    <script>
+        let btn = document.getElementById("btn");
+        let salida = document.getElementById("salida");
+        let img = document.getElementById("img");
+
+        btn.onclick = function (){
+            let name = document.getElementById("name");
+            if(name.value == "belen"){
+                salida.innerText = name.value;
+                img.src = "./img/WhatsApp Image 2021-08-24 at 14.54.18.jpeg"
+            }
+            if(name.value == "juan") {
+                salida.innerText = name.value;
+                img.src = "./img/channels4_profile.jpg"
+            }
+        }
+    </script>
+</body>
+</html>

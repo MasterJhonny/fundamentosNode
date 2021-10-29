@@ -1,0 +1,34 @@
+INSERT INTO vendedores (name,email,password)
+VALUES
+  ('Kaseem Padilla','tortor.nibh.sit@miloremvehicula.net','QDY62AZP6AX'),
+  ('Shelley Chambers','pede@quisquetinciduntpede.org','RWZ85BTP5IA'),
+  ('Jordan Monroe','erat.volutpat@mollis.ca','QVL32IQT8LE'),
+  ('Donna England','lectus.rutrum@hendreritid.net','VUO31HUS7YN'),
+  ('Britanney Church','nec@elementum.org','EDA41HLN5TN'),
+  ('Stone Wilcox','proin.sed@conubianostra.edu','ULL42RHT8OO'),
+  ('Dane Stokes','lacus@aliquamnecenim.edu','OXG45HGL5QF'),
+  ('Thor Whitehead','nunc@sagittislobortis.ca','NFH48HCF5TB'),
+  ('Karina Harrison','montes.nascetur@dolorvitaedolor.ca','WZN11ESD1SO'),
+  ('Tana Frost','vestibulum@nisinibh.ca','DJQ68EKE1YC'),
+  ('Briar Reed','nisi.sem@arcuvel.com','NJT75GMB9JD'),
+  ('Patrick Zimmerman','sed.malesuada@sednec.net','IMR79OFO4XE'),
+  ('Pandora Todd','quam.vel@risusa.ca','OJN04OFX5LQ'),
+  ('Ivory Singleton','enim.etiam@fringillapurus.edu','YKT87QFS9CY'),
+  ('Simon Garza','odio.etiam@eratnonummy.ca','BGW98TJE2LW');
+INSERT INTO vendedores (name,email,password)
+VALUES
+  ('Lucius Soto','magna@sitamet.org','RJS64VKP5VN'),
+  ('Nathaniel Estrada','pharetra.sed.hendrerit@natoquepenatibuset.net','WDI13ECD3JV'),
+  ('Barrett Harrington','sapien.imperdiet@ligulaeu.com','LLH43JPI7QK'),
+  ('Alexis Griffith','magna@quispede.com','JYX86VYD7PM'),
+  ('Gabriel Stark','urna.convallis.erat@tortor.edu','SPE30RPH3WM'),
+  ('Vincent Mcdowell','tempor.erat@ametrisus.org','FBR12SUI8HN'),
+  ('Cody Petty','vitae.mauris@euneque.org','WXK38XFO1QU'),
+  ('Madonna Carter','tristique.senectus@inmagna.edu','YFB56UNU9FI'),
+  ('Erica Acosta','at.arcu.vestibulum@erosnonenim.com','HST86ITR0VQ'),
+  ('Morgan Brennan','fusce.aliquam@aliquamfringilla.org','HBP31VIH1AJ'),
+  ('Lucius Church','mus.donec.dignissim@donecfringilla.ca','LHX26IYJ9FK'),
+  ('Rafael Kent','hendrerit.neque@interdum.net','UPS68WHE5JN'),
+  ('Blaze Talley','hendrerit.a@risus.net','GSF40RWD7TI'),
+  ('Brett Dodson','dolor.nonummy@quisque.co.uk','SMP42HZM1QF'),
+  ('Lesley Hawkins','nam.porttitor@odioauctorvitae.edu','KPV08SUO4RU');

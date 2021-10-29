@@ -1,0 +1,12 @@
+INSERT INTO proveedores (name,marca,celular)
+VALUES
+  ('Egestas Fusce Corporation','MARCA','022-746-6267'),
+  ('Lacinia Vitae Sodales Foundation','MARCA','034-138-9117'),
+  ('Risus In Mi Incorporated','MARCA','041-629-5164'),
+  ('Lorem Vitae LLC','MARCA','096-665-0882'),
+  ('Donec Egestas Consulting','MARCA','048-283-7924'),
+  ('Cursus Institute','MARCA','063-369-5491'),
+  ('Mauris Rhoncus Id Foundation','MARCA','027-911-8685'),
+  ('Posuere Enim LLC','MARCA','017-256-0732'),
+  ('Duis Gravida Praesent PC','MARCA','046-539-9641'),
+  ('Massa Rutrum Institute','MARCA','011-023-4355');

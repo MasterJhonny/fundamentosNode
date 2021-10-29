@@ -20,6 +20,12 @@ function adios(nombre){
     })
 }
 
+function otraforma3(){
+    setTimeout(() => {
+        console.log("kkkk esa otra funtion ");
+    }, 5000)
+}
+
 function hablar(nombre){
     return new Promise((resolve, reject) => {
         setTimeout(function(){
@@ -46,3 +52,15 @@ hola(nombre)
     .catch(error => {
         console.error("ERROR:", error);
     })
+
+
+console.log("Hola")
+console.log("Ahora tenemos dos Pantallas")
+function otraforma(){
+    setTimeout(() => {
+        console.log("kkkk de otra")
+    }, 2000);
+}
+otraforma3();
+otraforma();
+

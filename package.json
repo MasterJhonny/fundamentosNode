@@ -1,7 +1,7 @@
 {
   "name": "fundamentosNode",
   "version": "1.0.0",
-  "description": "",
+  "description": "una description",
   "main": "index.js",
   "scripts": {
     "mono": "nodemon conceptos/monohilo.js",
@@ -12,12 +12,35 @@
     "hell": "nodemon async/callbacksHell.js",
     "repasoH": "nodemon async/repaosHell.js",
     "repaso": "nodemon async/repasoHell2.js",
-    "pro": "nodemon async/promises.js"
+    "pro": "nodemon async/promises.js",
+    "pro2": "nodemon async/repasoPromesas.js",
+    "await": "nodemon async/asyncAwait.js",
+    "repaA": "nodemon async/repasoAsync.js",
+    "repA": "nodemon async/repasoAs.js",
+    "global": "nodemon modulos/globales.js",
+    "repag": "nodemon modulos/repasoGlobales.js",
+    "file": "nodemon modulos/fs.js",
+    "file1": "nodemon modulos/systemFile.js",
+    "con": "nodemon modulos/consola.js",
+    "err": "nodemon modulos/errores.js",
+    "repaer": "nodemon modulos/repaErrores.js",
+    "hijo": "nodemon modulos/processChiild.js",
+    "hijo1": "nodemon modulos/repasoProcess.js"
   },
   "keywords": [],
   "author": "Jhonny Callisaya <jhonnyeddy.22@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^10.0.0"
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "figlet": "^1.5.2",
+    "is-odd": "^3.0.1",
+    "moment": "^2.29.1",
+    "opn": "^6.0.0",
+    "puppeteer": "^10.4.0",
+    "sharp": "^0.29.1"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3"
   }
 }

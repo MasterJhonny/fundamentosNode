@@ -27,3 +27,22 @@ setInterval(function(){
 
 console.log("poll action...")
 
+function otraAction() {
+    setTimeout(() => {
+    console.log("poll action...");
+    }, 5000)
+}
+
+otraAction();
+function otraAction3(){
+    setTimeout(() => {
+        console.log("Otra action......")
+    }, 3000)
+}
+
+
+otraAction3()
+function otraAction4(){
+    console.log("Otra action... otro modo")
+}
+otraAction4()

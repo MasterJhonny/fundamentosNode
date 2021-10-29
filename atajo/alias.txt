@@ -1,0 +1,13 @@
+para ediar los alias entrar:
+nano ~/.bash_aliases
+
+para actualizar:
+source ~/.bash_aliases
+
+list alias:
+alias arbol="git log --all --graph --decorate --oneline"
+alias classNode='node cursos/programacion/fundamentosNode/atajo/cursoNode.js && cd cursos/programacion/fundamentosNode/'
+alias classExpress='node cursos/programacion/fundamentosNode/atajo/cursoExpress.js && cd cursos/programacion/cursoExpress/'
+alias classPro='node cursos/programacion/fundamentosNode/atajo/cursoPro.js && cd /home/eddyfu/cursos/programacion/profecionalJavascript && code .'
+alias classDom='node cursos/programacion/fundamentosNode/atajo/cursoDom && cd cursos/programacion'
+alias classPostgres='node cursos/programacion/fundamentosNode/atajo/cursoPostgres.js && psql -U postgres -h localhost'
